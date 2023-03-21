@@ -1,0 +1,187 @@
+body{
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.bar{
+  width: 100%;
+  height: 10%;
+  color: white;
+  background-color: #535353;
+  overflow: hidden;
+  position: fixed;
+  font-weight: bolder;
+} 
+.bar li{
+  display: block;
+  float: right;
+  padding-top: 2%;
+  padding-right: 2%;
+} 
+.bar a{
+  color: white;
+  text-decoration: none;
+}
+.bar a:hover{
+  color: #FCD307;
+}
+#logo{
+  height: 70px;
+  float: left;
+  margin-left: 3%;
+  border-radius: 180%;
+}
+
+.sigla{
+  width: 100%;
+  height: 750px;
+ background-image: url(../Images/top-view-person-writing-laptop-with-copy-space.jpg);
+}
+.sigla p{
+  float: left;
+  font-size: 20px;
+  padding-top: -3%;
+  padding-left: 50%;
+  padding-right: 5%;
+}
+.discription{
+  float: left;
+  font-size: 60px;
+  padding-top: 8%;
+  padding-left: 50%;
+  padding-right: 5%;
+  text-shadow: 2px 2px 2px gray;
+  font-family: 'Itim'; 
+}
+.sigla button{
+  float: right;
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-right: 5%;
+  background-color: #FCD307;
+  font-size: larger;
+  border-radius: 5%;
+  box-shadow: 2px 2px 2px gray;
+}
+.sigla a{
+  text-decoration: none;
+  color: black;
+}
+#but1{
+  margin-right: 10%;
+}
+.categorie{
+  width: 100%;
+  height: 318px;
+  background-color: #FCD307;
+  display: flex;
+  left: 0px;
+  top: 770px;
+}
+.categorie img{
+  border-radius: 50%;
+  width: 5%;
+  height: 30%;
+  transition: all 0.5s;
+  margin-left: 14%;
+  margin-top: 5%;
+  box-shadow: 2px 2px 2px gray;
+}
+.categorie img:hover{
+  border-radius: 5%;
+  transition: all 0.5s;
+}
+
+.categorie p{
+  margin-top: 13%;
+  margin-left: -7%;
+}
+.emplois{
+  width: 100%;
+  height: 900px;
+  
+}
+.fin{
+position: absolute;
+width: 100%;
+height: 400px;
+background: #403D3D;
+color: white;
+}
+.fin h3{
+  font-size: 50px;
+  float: left;
+  margin-left: 4%;
+}
+.fin p{
+ margin-right: 70%
+}
+#dp{
+  float: right;
+  margin-right: 3%;
+  margin-top: -9.5%;
+  height: 30%;
+  width: 22%;
+  border-radius: 2%;
+  
+}
+.info{
+  float: right;
+  margin-right: 2%;
+  display: flex;
+}
+#ptelephone{
+  margin-left: -3.5%;
+}
+#padress{
+  margin-left: 1%;
+}
+
+#nom{
+  position: absolute;
+  width: 15%;
+  height: 4%;
+  left: 57%;
+  top: 30%;
+}
+#mail{
+  position: absolute;
+  width: 15%;
+  height: 4%;
+  left: 57%;
+  top: 40%;
+}
+#telephone{
+  position: absolute;
+  width: 15%;
+  height: 4%;
+  left: 57%;
+  top: 50%;
+}
+#envoyer{
+  position: absolute;
+  width: 15%;
+  height: 10%;
+  left: 75%;
+  top: 65%;
+  background-color: #FCD307;
+  border-radius: 54;
+  font-size: larger;
+}
+#adress{
+  font-size: large;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+  padding-right: 2%;
+  float: left;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+footer a:hover{
+  color: #FCD307;
+}
