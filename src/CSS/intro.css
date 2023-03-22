@@ -1,0 +1,44 @@
+#intro {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./../Images/intro2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+}
+
+@media screen and (max-width: 1050px) {
+    
+    #intro {
+        background-size: auto 100vh;
+        
+    }
+
+}
+
+#info {
+    float: left;
+    width: 50vw;
+    height: 100vh;
+    color: aliceblue;
+}
+
+#images {
+    height: 100vh;
+}
+
+#jobs {
+    margin: 15px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1050px) {
+    
+    #info {
+        width: 100vw;
+    }
+
+    #images {
+        display: none;
+    }
+
+}
