@@ -1,0 +1,197 @@
+.fin{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background: #403D3D;
+    color: white;
+    }
+    .fin h3{
+      font-size: 50px;
+      float: left;
+      margin-left: 4%;
+      margin-top: 1%;
+    }
+    .fin p{
+      margin-left: 9%;
+      padding-top: 1%;
+    }
+    .info{
+      float: right;
+      display: flex;
+    }
+    #nom{
+      position: absolute;
+      background-color: white;
+      color: black;
+      width: 15%;
+      height: 8%;
+      left: 57%;
+      top: 20%;
+    }
+    #mail{
+      position: absolute;
+      background-color: white;
+      color: black;
+      width: 15%;
+      height: 8%;
+      left: 57%;
+      top: 33%;
+    }
+    #telephone{
+      position: absolute;
+      background-color: white;
+      color: black;
+      width: 15%;
+      height: 8%;
+      left: 57%;
+      top: 45%;
+    }
+    #envoyer{
+      position: absolute;
+      width: 15%;
+      height: 10%;
+      left: 75%;
+      top: 65%;
+      background-color: #FCD307;
+      border-radius: 54;
+      font-size: larger;
+    }
+
+    #description{
+      background-color: white;
+      color: black;  
+      height: 30%;
+      float: right;
+      margin-right: 10%;
+      margin-top: -6%;
+    }
+    
+    footer a{
+      color: white;
+      text-decoration: none;
+      padding-right: 2%;
+      float: left;
+      margin-top: 10%;
+      margin-left: 8%;
+    }
+    footer a:hover{
+      color: #FCD307;
+    }
+
+    @media screen and (max-width: 1200px) {
+      #nom{
+        position: absolute;
+        background-color: white;
+        color: black;
+        width: 15%;
+        height: 8%;
+        left: 50%;
+        top: 20%;
+      }
+      #mail{
+        position: absolute;
+        background-color: white;
+        color: black;
+        width: 15%;
+        height: 8%;
+        left: 50%;
+        top: 33%;
+      }
+      #telephone{
+        position: absolute;
+        background-color: white;
+        color: black;
+        width: 15%;
+        height: 8%;
+        left: 50%;
+        top: 45%;
+      }
+
+      }
+    @media screen and (max-width: 950px) {  
+      .fin{
+        position: absolute;
+        width: 100%;
+        height: 700px;
+        background: #403D3D;
+        color: white;
+        }
+      .fin h3{
+        font-size: 30px;
+        margin-left: 29%;
+      }
+      .fin p {
+        margin-left: 35%;
+      }
+      #nom{
+        position: absolute;
+        background-color: white;
+        color: black;
+        width: 170px;
+        height:30px;
+        left: 35%;
+        top: 30%;
+      }
+      #mail{
+        position: absolute;
+        background-color: white;
+        color: black;
+        width: 170px;
+        height:30px;
+        left: 35%;
+        top: 37%;
+      }
+      #telephone{
+        position: absolute;
+        background-color: white;
+        color: black;
+        width: 170px;
+        height:30px;
+        left: 35%;
+        top: 44%;
+      }
+      #description{
+        background-color: white;
+        color: black;  
+        height: 90px;
+        float: right;
+        margin-right: 30%;
+        margin-top: 35%;
+      }
+      #envoyer{
+        position: absolute;
+        width: 170px;
+        height: 30px;
+        left: 35%;
+        top: 68%;
+        background-color: #FCD307;
+        border-radius: 54;
+        font-size: larger;
+      }
+      
+      footer a{
+        color: white;
+        text-decoration: none;
+        float: left;
+        margin-left: 35%;
+        margin-top: 13%;
+      }
+    }
+
+    @media screen and (max-width: 950px) {
+      #description{
+        background-color: white;
+        color: black;  
+        height: 90px;
+        float: right;
+        margin-right: 20%;
+        margin-top: 47%;
+      }
+      footer a{
+        color: white;
+        text-decoration: none;
+        float: left;
+        margin-left: 35%;
+        margin-top: 13%;
+      }
+    }

@@ -1,4 +1,6 @@
-import "../CSS/index.css"
+//La partie juste apres la nav bar ou il y a notre logo est les deux button
+
+import "../CSS/Sigla.css"
 export default function Sigla(){
     return(
         <div class="sigla">
