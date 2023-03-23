@@ -1,17 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Navbar from './Components/Navbar.js';
+import Brand from './Images/logo.png';
+import Intro from './Components/Intro';
 
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import img1 from './Images/job1.jpg';
+import img2 from './Images/job2.jpg';
+import img3 from './Images/job3.jpg';
+import img4 from './Images/job4.jpg';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <div>
+    <Navbar img={Brand} link1='#' link2='#' link3='#' link4='#'/>
+    <Intro img1={img1} img2={img2} img3={img3} img4={img4} />
+  </div>
+  
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
