@@ -24,6 +24,35 @@
     margin-top: 13%;
     margin-left: -7%;
   }
-  @media screen and (max-width: 1050px) {
-    
+
+  @media screen and (max-width: 1200px) {
+    .categorie p{
+      margin-top: 16%;
+      margin-left: -9%;
+    }
+    .categorie img{
+      border-radius: 50%;
+      width: 7%;
+      height: 30%;
+      transition: all 0.5s;
+      margin-left: 14%;
+      margin-top: 5%;
+      box-shadow: 2px 2px 2px gray;
+    }
+
+  }
+  @media screen and (max-width: 900px) {
+    .categorie p{
+      margin-top: 18%;
+      margin-left: -11%;
+    }
+    .categorie img{
+      border-radius: 50%;
+      width: 7%;
+      height: 30%;
+      transition: all 0.5s;
+      margin-left: 14%;
+      margin-top: 5%;
+      box-shadow: 2px 2px 2px gray;
+    }    
   }
